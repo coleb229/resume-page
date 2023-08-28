@@ -1,11 +1,18 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 body {
     margin: 2em;
     background-color: #f2f2f2;
     font-family: Arial, sans-serif;
+}
+
+p {
+    margin: 8px 5px;
+}
+
+#header h2 {
+    text-align: right;
+    margin-right: 5%;
+    margin-bottom: 40px;
+    position: relative;
 }
 
 #container {
@@ -23,6 +30,13 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.flex-option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: left;
 }
 
 /* start nav styles */
