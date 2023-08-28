@@ -1,4 +1,3 @@
-
 .carousel-container {
   width: 80%;
   max-width: 800px;
@@ -6,40 +5,33 @@
   margin: auto;
   overflow: hidden;
 }
-
 .carousel-slide {
   display: flex;
   transition: transform 0.3s ease-in-out;
 }
-
 .carousel-slide img {
   width: 100%;
   height: 100%;
 }
-
 #github {
   width: 100px;
   height: 100px;
   border-radius: 50%;
   overflow: hidden;
 }
-
 #github img {
   width: 100%;
   height: 100%;
 }
-
 #github-container {
   margin: auto 25px;
   position: relative;
 }
-
 #github-container p {
   margin: 0;
   padding: 0;
   text-align: center;
 }
-
 #github-container a {
   text-decoration: none;
   color: black;
@@ -47,14 +39,12 @@
   font-size: .75em;
   margin: 0.5em;
 }
-
 #technologies {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin: 1em;
 }
-
 #technologies ul {
   margin: 10px;
   padding: 0;

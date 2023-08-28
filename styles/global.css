@@ -3,18 +3,15 @@ body {
     background-color: #f2f2f2;
     font-family: Arial, sans-serif;
 }
-
 p {
     margin: 8px 5px;
 }
-
 #header h2 {
     text-align: right;
     margin-right: 5%;
     margin-bottom: 40px;
     position: relative;
 }
-
 #container {
     width: 50%;
     height: fit-content;
@@ -25,20 +22,17 @@ p {
     display: flex;
     flex-direction: column;
 }
-
 .flex {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-
 .flex-option {
     display: flex;
     flex-direction: row;
     align-items: center;
     float: left;
 }
-
 /* start nav styles */
 #nav {
     position: fixed;
@@ -48,7 +42,6 @@ p {
     align-items: left;
     margin-bottom: 1em;
 }
-
 #nav a {
     text-decoration: none;
     color: black;
@@ -56,7 +49,6 @@ p {
     font-size: 1.2em;
     margin: 0.5em;
 }
-
 #nav a:hover {
     color: #484870;
 }
