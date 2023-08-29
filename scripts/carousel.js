@@ -38,6 +38,7 @@ document.addEventListener('click', function (event) {
     document.querySelector('#right').classList.add('active')
   }
 })
+// also need to add listener for mouseup
 
 // Button events
 document.querySelector('#left').addEventListener('click', prevSlide)
@@ -49,4 +50,4 @@ window.addEventListener('resize', updateSlideWidth)
 // Initial setup
 updateSlidePosition()
 updateSlideWidth()
-setInterval(nextSlide, 2000)
+setInterval(nextSlide, 3000)
