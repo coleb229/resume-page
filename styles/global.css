@@ -6,13 +6,13 @@ body {
 p {
     margin: 8px 5px;
 }
-#header h2 {
+header h2 {
     text-align: right;
     margin-right: 5%;
     margin-bottom: 40px;
     position: relative;
 }
-#container {
+main {
     width: 50%;
     height: fit-content;
     margin: auto;
@@ -34,7 +34,7 @@ p {
     float: left;
 }
 /* start nav styles */
-#nav {
+nav {
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -42,14 +42,14 @@ p {
     align-items: left;
     margin-bottom: 1em;
 }
-#nav a {
+nav a {
     text-decoration: none;
     color: black;
     font-weight: 600;
     font-size: 1.2em;
     margin: 0.5em;
 }
-#nav a:hover {
+nav a:hover {
     color: #484870;
 }
 /* end nav styles */

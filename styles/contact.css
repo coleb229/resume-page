@@ -1,0 +1,21 @@
+#contact {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0px;
+  margin: auto;
+}
+
+.contact-option {
+  margin: 0 2em;
+}
+
+#socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 8px 5px;
+}
+
+#contact h4 {
+  margin: 0;
+}
