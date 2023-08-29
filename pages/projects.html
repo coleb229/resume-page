@@ -16,12 +16,20 @@
     <main>
       <header>
         <h2>Projects</h2>
-        <div class="carousel-container">
-          <div class="carousel-slide">
-            <img src="../images/project1.JPG" alt="Image 1">
-            <img src="../images/project2.JPG" alt="Image 2">
-            <img src="../images/project3.JPG" alt="Image 3">
+        <div id="carousel-frame" class="flex">
+          <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" id="left" class="c-buttons">
+            <path d="M15 7L10 12L15 17" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <div id="carousel-container">
+            <div id="carousel-slide">
+              <img src="../images/project1.JPG" alt="Image 1">
+              <img src="../images/project2.JPG" alt="Image 2">
+              <img src="../images/project3.JPG" alt="Image 3">
+            </div>
           </div>
+          <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="c-buttons" id="right">
+            <path d="M15 7L10 12L15 17" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
         </div>
       </header>
       <div id="projects">

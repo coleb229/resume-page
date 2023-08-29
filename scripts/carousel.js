@@ -1,5 +1,5 @@
-const carouselSlide = document.querySelector('.carousel-slide')
-const images = document.querySelectorAll('.carousel-slide img')
+const carouselSlide = document.querySelector('#carousel-slide')
+const images = document.querySelectorAll('#carousel-slide img')
 
 let counter = 0
 let slideWidth = images[0].clientWidth
@@ -30,10 +30,18 @@ function updateSlidePosition() {
   carouselSlide.style.transform = `translateX(-${counter * slideWidth}px)`
 }
 
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'ArrowLeft') prevSlide()
-  if (e.key === 'ArrowRight') nextSlide()
+// This won't work for SVGs
+document.addEventListener('click', function (event) {
+  if (event.target.matches('#left')) {
+    document.querySelector('#left').classList.add('active')
+  } else if (event.target.matches('#right')) {
+    document.querySelector('#right').classList.add('active')
+  }
 })
+
+// Button events
+document.querySelector('#left').addEventListener('click', prevSlide)
+document.querySelector('#right').addEventListener('click', nextSlide)
 
 // Update slide width on window resize
 window.addEventListener('resize', updateSlideWidth)
@@ -41,4 +49,4 @@ window.addEventListener('resize', updateSlideWidth)
 // Initial setup
 updateSlidePosition()
 updateSlideWidth()
-setInterval(nextSlide, 3000)
+setInterval(nextSlide, 2000)
